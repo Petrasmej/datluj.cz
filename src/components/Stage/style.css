@@ -1,14 +1,23 @@
 .stage {
-  height: 340px;
+  height: 300px;
+  width: 600px;
   padding: 32px;
-  margin: 32px auto;
-  background-color: #efefef;
+  margin: 250px auto;
+  background-color: #e9d8d5eb;
   border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: #1B1E17;
+  font-weight: 900;
 }
 
 .stage__mistakes {
   text-align: center;
-  margin-bottom: 64px;
+  margin: 32px;
+  color: #1B1E17;
+  font-weight: 600;
 }
 
 .stage__words {

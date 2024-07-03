@@ -20,7 +20,7 @@ const Wordbox: React.FC<WordboxProps> = ({
   useEffect(() => {
     if (!active) return;
 
-    const handleKeyUp = (event) => {
+    const handleKeyUp = (event: KeyboardEvent) => {
       const { key } = event;
       console.log(`Stisknuta klávesa: ${key}`); // Debugging
 
