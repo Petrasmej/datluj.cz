@@ -34,7 +34,7 @@ const Stage: React.FC = () => {
 
   return (
     <div className="stage">
-      <h1>Psaní všema deseti</h1>
+      <h1>Psaní všemi deseti</h1>
       <div className="stage__mistakes">Chyb: {mistakes}</div>{' '}
       <div className="stage__words">
         {' '}
