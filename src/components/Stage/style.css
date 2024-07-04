@@ -1,22 +1,23 @@
 .stage {
-  height: 300px;
-  width: 600px;
+  width: 100%;
   padding: 32px;
-  margin: 250px auto;
-  background-color: #e9d8d5eb;
+  background-color: rgba(233, 216, 213, 0.9);
   border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 h1 {
   text-align: center;
-  color: #1B1E17;
+  color: #1b1e17;
   font-weight: 900;
+  margin-bottom: 24px;
 }
 
 .stage__mistakes {
   text-align: center;
   margin: 32px;
-  color: #1B1E17;
+  color: #1b1e17;
   font-weight: 600;
 }
 

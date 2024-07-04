@@ -4,7 +4,9 @@ import './style.css';
 const App: React.FC = () => {
   return (
     <div className="container">
-      <Stage />
+      <div className="foto">
+        <Stage />
+      </div>
     </div>
   );
 };

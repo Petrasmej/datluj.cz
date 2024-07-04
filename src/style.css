@@ -2,24 +2,37 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
   font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  background: url("/typing.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
-
-
 .container {
-  min-width: 500px;
-  height: 1000px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 5px;
-  background-image: url("/public/typing.jpg");
-  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  position: relative;
+  height: 100%;
+  padding-top: 150px;
+  /* Posuneme obsah dolů */
+}
+
+
+.foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 600px;
+  padding: 32px;
+  background-color: rgba(255, 255, 255, 0.804);
+  /* Poloprůhledné pozadí */
+  border-radius: 16px;
+  /* Větší zaoblení rohů pro rámeček */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
